@@ -50,64 +50,8 @@
   </head>
   <body>
   
-<?php
-            echo "<p>Hello World!</p>";
-?>
-<div class="container-fluid">
-<div class="row">
-<div class="col-sm-8">
-<img class="logo" src="img/logoeng.png">
-</div>
-<div class="col-sm-2">
-<span>
-<p class="contact-header">CONTACT US<br>
-<b>+91-9739545678</b></span>
-</p>
-</div>
-<div class="col-sm-2">
-<img style="float:right;" class="logo" src="img/logoarb.png">
-</div>
-</div>
-</div>
+<?php include 'menu.php';?>
 
-
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-  <a class="navbar-brand" href="#">Nexrise-Events</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Events
-        </a>
-        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-  </div>
-</nav>
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
@@ -161,51 +105,7 @@
 
 </div>
 
-
-<div class="container-fluid footer">
-<div class="row">
-
-<div class="col-sm-3 social">
-<a class="sociallink" href="https://www.facebook.com/NexRise-Events-SPC-1437870999658149/">
-<i class="fab fa-facebook-f"></i>
-</a>
-<a class="sociallink" href="https://www.linkedin.com/company/13428478/">
-<i class="fab fa-linkedin-in"></i>
-</a>
-<a class="sociallink" href="">
-<i class="fab fa-google-plus-g"></i>
-</a>
-</div>
-
-<div class="col-sm-6" style="">
-<br>
-<div class="section_button">
-<a href="index.html"><button type="button" class="btn btn-outline-secondary">Home</button></a>
-<a href="about-us.html"><button type="button" class="btn btn-outline-secondary">About</button></a>
-<a href="events.html"><button type="button" class="btn btn-outline-secondary">Events</button></a>
-<a href="contact.html"><button type="button" class="btn btn-outline-secondary">Contact</button></a>
-
-</div>
-
-<img class="logoengfooter" src="img/logoeng.png"><br>
-<img class="logoarbfooter" src="img/logoarb.png">
-</div>
-
-<div class="col-sm-3">
-<p style="color:white; padding-top:50px;">Flat:91, Building:205, Road:2803,<br>Block:42, Al Seef.<br>Kingdom of Bahrain, 
-<br>Mobile:+91-9739545678<br>Email: info@nexrise-events.com</p>
-</div>
-
-<div class="bottomfooter">
-<ul>
-<li>© Copyright&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-<li>Privacy Policy&nbsp;&nbsp;|&nbsp;&nbsp;</li>
-<li><a style="color:#b3afaf;">Web Design by musab</a></li>
-</ul>
-</div>
-
-</div>
-</div>
+<?php include 'footer.php';?>
 
 
 
