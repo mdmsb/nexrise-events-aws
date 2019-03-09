@@ -25,25 +25,27 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li id="home" class="nav-item">
         <a class="nav-link" href="index.php">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+      <li id="about" class="nav-item">
+        <a class="nav-link" href="about.php">About Us</a>
       </li>
-      <li class="nav-item dropdown">
+      <li id="event" class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Events
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="event.php">Upcoming Events</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Event1</a>
+          <a class="dropdown-item" href="#">Event2</a>
+          <a class="dropdown-item" href="#">Event3</a>
+          <a class="dropdown-item" href="#">Event4</a>
         </div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+      <li id="contact" class="nav-item">
+        <a class="nav-link" href="contact.php">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

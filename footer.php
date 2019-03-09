@@ -17,10 +17,10 @@
 <div class="col-sm-6" style="">
 <br>
 <div class="section_button">
-<a href="index.html"><button type="button" class="btn btn-outline-secondary">Home</button></a>
-<a href="about-us.html"><button type="button" class="btn btn-outline-secondary">About</button></a>
-<a href="events.html"><button type="button" class="btn btn-outline-secondary">Events</button></a>
-<a href="contact.html"><button type="button" class="btn btn-outline-secondary">Contact</button></a>
+<a href="index.php"><button type="button" class="btn btn-outline-secondary">Home</button></a>
+<a href="about.php"><button type="button" class="btn btn-outline-secondary">About</button></a>
+<a href="event.php"><button type="button" class="btn btn-outline-secondary">Events</button></a>
+<a href="contact.php"><button type="button" class="btn btn-outline-secondary">Contact</button></a>
 
 </div>
 

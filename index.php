@@ -8,14 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link rel="stylesheet" href="style.css">
 
 <style>
-.logo {height:100px;}
-.contact-header {margin-top:20px;}
-.contact-header>b {color:orange;}
-.dropdown-item {color:white;}
-.nav-link, .navbar-nav {margin:0px 8px;}
-.carousel-item>img {height:calc(100vh - 150px);}
+
 
 
 .cards .col-sm-4 {height:500px; overflow:hidden; padding:0;}
@@ -25,22 +21,7 @@
 .cards p {width:100%; height:50px; background-color:rgba(255, 0, 0, 0.3); color:white; text-align:center; position:absolute; bottom:0; left:0; margin:0; line-height:50px; -webkit-transition: 0.4s; transition: 0.4s;}
 .cardhover:hover p { height:100%; line-height:250px;}
 
-.footer {background-color:#343a40;}
 
-.social {text-align:center; margin-top:20px;}
-.footer .fab {font-size:25px; height:40px; width:40px; border:; text-align:center; line-height:40px; border-radius:50px; color:white;  box-shadow: 2px 5px 30px 1px black; margin:3px;}
-.footer .fab:hover {box-shadow: 0px 0px 0px 0px black;}
-.fa-facebook-f {background-color:#3b5998;}
-.fa-linkedin-in {background-color:#0082ca;}
-.fa-google-plus-g {background-color:#dd4b39;}
-
-.logoengfooter, .logoarbfooter{max-width:250px; display:block;margin:auto;}
-
-.section_button {text-align:center; margin-top:5px; margin-bottom:30px;}
-
-.bottomfooter {background-color:#18262a; text-align:center; width:100%; height:70px;}
-.bottomfooter ul { margin:0;}
-.bottomfooter li {display:inline; line-height:70px; color:wheat; font-size:12px;}
 
 </style>	
 
@@ -114,5 +95,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+
+$("#home").addClass("active");
+
+</script>
+
+
   </body>
 </html>
