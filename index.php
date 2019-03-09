@@ -49,6 +49,10 @@
     <title>Nexrise-Events</title>
   </head>
   <body>
+  
+<?php
+            echo "<p>Hello World!</p>";
+?>
 <div class="container-fluid">
 <div class="row">
 <div class="col-sm-8">
